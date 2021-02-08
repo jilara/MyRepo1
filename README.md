@@ -1,4 +1,4 @@
-## CITC 1300 and WEBT 1320 Project page
+## -CITC 1300 and WEBT 1320 Project page
 
 <h1>My Project List</h1>
 
