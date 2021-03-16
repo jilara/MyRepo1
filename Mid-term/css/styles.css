@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(24, 19, 22);
+    text-align: center;
+    background-image: url('../dbdpic/darkforest.jpg');
+}
+img {
+    max-width: 100%;
+}
+
+#container {
+    width: 75%;
+    border: outset black;
+    
+    margin: 20px auto;
+
+}
+
+header  {
+    background-image: url('../dbdpic/dbdbanner3.jpeg') ;
+    background-position: center center;
+    height: 200px; width: auto;
+    padding: 10px;
+    background-size: 700px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-align: center ;
+    line-height: 245px;
+    color: rgb(255, 251, 251);
+    text-shadow: 2px 2px 2px black;
+   
+} 
+
+nav {
+    text-align: center;
+    padding:20px;
+    background-color: rgb(128, 5, 0);
+}
+
+nav a{
+    padding: 20px 30px;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:black;
+    color: red;
+    
+}
+
+main {
+    background-color: lightslategrey;
+    padding: 20px;
+    margin: 5px 0;
+}
+
+main h2 {
+    text-align: center;
+
+}
+
+main img {
+    
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 20px;
+}
+footer {
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.imgstyle {
+    border-radius: 0;
+    border: 4px solid black;
+    box-shadow: 5px 10px 5px;
+}
+
+
+.logo {
+    width: auto;
+}
+.logo2 {
+    width: 650px; height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
