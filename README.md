@@ -9,3 +9,4 @@
 <a href="Midterm/index.html" target="_blank">midterm</a>
 <a href="lab5/index.html" target="_blank">Lab 5</a>
 <a href="lab6/index.html" target="_blank">Lab 6</a>
+<a href="lab7/index.html" target="_blank">Lab 7</a>
