@@ -1,0 +1,110 @@
+body {
+    font-family: 'Antonio', sans-serif;
+}
+
+header{
+    background-color: beige;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+header h1{
+    color: black;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.slider {
+    align-items: center;
+}
+
+/* mobile styles */
+
+section {
+    background-color: beige;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+
+section h2 {
+    text-align: center;
+    color: black;
+}
+footer {
+    background-color: beige;
+    padding: 40px 0;
+    text-align: center;
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+.slicknav_menu {
+    background-color: beige;
+}
+
+.slicknav_btn {
+    background-color: black;
+}
+
+/* tablet styles */
+@media only screen and (min-width: 768px) {
+
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+       display: block;
+    }
+    header {
+        height: 250px;
+    }
+    header h1 {
+        font-size: 50px;
+        line-height: 200px;
+    }
+    nav {
+        text-align: center;
+        background-color: burlywood;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: burlywood;
+        padding: 10px 0;
+        width: 175px;
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: cadetblue;
+        text-decoration: none;
+    }
+}
+
+/* desktop */
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+}

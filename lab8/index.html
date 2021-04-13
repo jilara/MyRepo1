@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+        <div id="container">
+            <header>
+                <h1>Architecture</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">magic</a></li>
+                    <li><a href="#">stuff</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>Images</h2>
+                    <div class="slider">
+                        <div><img src="images/another.jpg" alt="building"></div>
+                        <div><img src="images/wave.jfif" alt="building"></div>
+                        <div><img src="images/arch.jfif" alt="building"></div>
+                        <div><img src="images/zaha.jpg" alt="building"></div>
+                    </div>
+                        
+                </section>
+                <section>
+                    <h2>Masterpieces</h2>
+                    <div id="accordion">
+                        <h3>Eiffel Tower</h3>
+                        <div>
+                          <p>
+                          Named after Gustave Eiffel because his company designed and built the structure. The locals gave it the nickname of "La dame de fer" which is french for iron lady. This masterpiece was shown off in the 1889 world's fair. 
+                          </p>
+                        </div>
+                        <h3>Himeji Castle</h3>
+                        <div>
+                          <p>
+                          An ancient castle complex built on a hill in himeji in the year 1333. It is a great example of Japanese architecture that survived the bombing of World War II
+                          </p>
+                        </div>
+                        <h3>Roman Colosseum</h3>
+                        <div>
+                          <p>
+                          It is an amphitheatre built in Rome under the rule of the Flavian emperors standing 4 stories high. It is still the largest amphitheatre despite its old age. This amphitheatre was mainly used for gladiator battles for the emperors entertainment.
+                          </p>
+                          
+                        </div>
+                        <h3>The Taj Mahal</h3>
+                        <div>
+                          <p>
+                            The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra commisioned in 1632 by Emperor Shah Jahan of Mughal. It is a tomb for his favorite wife Mumtaz Mahal.
+                          </p>
+                        </div>
+                      </div>
+                </section>
+                <section>
+                    <h2>jquary ui tabs</h2>
+                    <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Eiffel Tower</a></li>
+                          <li><a href="#tabs-2">Himeji Castle</a></li>
+                          <li><a href="#tabs-3">Roman Colosseum</a></li>
+                          <li><a href="#tabs-4">The Taj Mahal</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <img src="images/eiffel.jpg" alt="building">
+                        </div>
+                        <div id="tabs-2">
+                            <img src="images/castle.jfif" alt="building">
+                        </div>
+                        <div id="tabs-3">
+                            <img src="images/Colosseum.jpg" alt="building">
+                        </div>
+                        <div id="tabs-4">
+                            <img src="images/taj.jpg" alt="building">
+                        </div>
+                      </div>
+                </section>
+            </main>
+            <footer>&copy; 2021 lab 8 - intro to css</footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $('.slider').bxSlider({
+                 auto: true   
+                });
+                $( "#accordion" ).accordion();
+                $( "#tabs" ).tabs();
+            });
+        </script>
+</body>
+</html>
