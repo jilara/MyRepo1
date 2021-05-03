@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="icon" type="image/png" href="images/logoart.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+        <div id="container">
+            <header id="headerMich">
+                <h1>Michelangelo</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Michelangelo.html">Michelangelo</a></li>
+                    <li><a href="Raphael.html">Raphael</a></li>
+                    <li><a href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a href="Vincent.html">Vincent</a></li>
+                </ul>
+            </nav>
+            <main>
+                
+                <section>
+                    <h2>Info</h2>
+                    <div id="accordion">
+                        <h3>Early Life</h3>
+                        <div>
+                          <p>
+                          Born in March 6, 1475 Michelangelo lived a cozy life during his childhood in Tuscany since his family were bankers but things started going south when the bank industry started failing and led to his father getting a government job. Soon enough his family moved back to Florence and at the age of 6 his mother passed away due to chronic illness. Over time he would meet several painters and was inspired to pursue a career in art. 
+                          </p>
+                        </div>
+                        <h3>Mid-life</h3>
+                        <div>
+                          <p>
+                          During his mid-life florence was considered the center of education and art. Florence was full of wealthy and powerful people who sponsored masterpieces and at the age of 13 he achieved an apprenticeship from Ghirlandaio which a year later put Michelangelo in an unusual situation where Ghirlandaio was asked to pay michelangelo as an artist. A ruler named Lorenzo de Medici asked Ghirlandaio for his two best pupils and michelangelobeing one was admitted to a Humanist academy where he discovered his works and outlook was influenced by a number of writers and philosophers and at this time he was commisioned by Lorenzo de Medici for the artwork "Battle of the Centaurs". Michelangelo was struck with some hard times after the death of Lorenzo and was forced to go back to living with his father and a few moths later he was given the opportuinity to study the anatomy of some dead bodies at the curch of Santa Maria Del Santo Spirito. By 1493, he created a life size statue of Hurcules which was sent to France where then the artist was given a chance to re-enter the Medici Court and so he did. Before 14494 ended during the time of Charles VIII when florence was in a stable condition he became pre-occupied with a statue of a sleeping cupid and the child St. John the Baptist. At the age of 21 he left to Rome where he started working on a massive statue of Bacchus that was commissioned by Cardinal Raffaele Riario but was rejected and later bought by Jacopo Galli
+                          </p>
+                        </div>
+                        <h3>Late Life</h3>
+                        <div>
+                          <p>
+                            Later in Michelangelo's life, he was able to create several Pietas, which reflects different images. The Pieta of Vittoria Colonna, for instance, was a chalk drawing that presented Mary with upraised arms and hands, which indicated her prophetic role. As for the frontal features of the image, it resembled the fresco by Masaccio, which is found at the Holy Trinity in Santa Maria Novella, in Florence. As for the Florentine Pieta, the artist depicted himself as the old image of Nicodemus as he lowered Jesus' body upon his death on the cross. Mary Magdalene and Mary, the mother of Jesus, were also included in this Pieta. It can be found that the leg and left arm of Jesus in this Pieta was smashed, which was said to have been done by Michelangelo. Eventually, the disfigured arm and leg were repaired by Tiberio Calcagni, the artist's pupil. According to scholars, the Rondanini Pieta was Michelangelo's final work, yet it remains unfinished because he started working on it until there was a lack of stone to complete the work. Hence, this work of art maintained an abstract quality that resembled the 20th century concept and style of sculpting. 
+                          </p>
+                          
+                        </div>
+                        
+                      </div>
+                </section>
+                <aside class="row">
+                    <h2>Master Pieces</h2>
+                    <div class="image_box">
+                        <img src="images/david.jpg" alt="David" style="width:100%">
+                        <p>Michelangelo's Statue of David commisioned in 1501 </p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/sistine-chapel-ceiling.jpg" alt="Sistime_Chapel" style="width:100%">
+                        <p>painted by Michelangelo between 1508 and 1512  at the commission of Pope Julius II</p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/pieta.jpg" alt="pieta" style="width:100%">
+                        <p>Michelangelo's Pieta 1498–1499 commissioned for the French Cardinal Jean de Bilhères</p>
+                    </div>
+                    
+                </aside>
+            </main>
+            <div>
+                <footer>&copy; 2021 lab 8 - intro to css</footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $( "#accordion" ).accordion();
+            });
+        </script>
+</body>
+</html>

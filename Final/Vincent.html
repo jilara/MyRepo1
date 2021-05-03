@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="icon" type="image/png" href="images/logoart.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+        <div id="container">
+            <header id="headerVin">
+                <h1>Vincent</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Michelangelo.html">Michelangelo</a></li>
+                    <li><a href="Raphael.html">Raphael</a></li>
+                    <li><a href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a href="Vincent.html">Vincent</a></li>
+                </ul>
+            </nav>
+            <main>
+                
+                <section>
+                    <h2>Info</h2>
+                    <div id="accordion">
+                        <h3>Early Life</h3>
+                        <div>
+                          <p>
+                            Vincent van Gogh (March 30, 1853 - July 29, 1890) was born on 30 March 1853 in Zundert, a village in the southern province of North Brabant. He was the eldest son of the Reverend Theodorus van Gogh (1822 - 1885) and Anna Cornelia Carbentus (1819 - 1907), whose other children were Vincent's sisters Elisabeth, Anna, and Wil, and his brother Theo and Cor. Little is known about Vincent's early years other than that he was a quiet child with no obvious artistic talent. He himself would later look back on his happy childhood with great pleasure. 
+                          </p>
+                        </div>
+                        <h3>Mid-life</h3>
+                        <div>
+                          <p>
+                            When Van Gogh decided to become an artist, no one, not even himself, suspected that he had extraordinary gifts. His evolution from an inept but impassioned novice into a truly original master was remarkably rapid. He eventually proved to have an exceptional feel for bold, harmonious color effects, and an infallible instinct for choosing simple but memorable compositions. In April 1881, Van Gogh went to live with his parents in Etten in North Brabant, where he set himself the task of learning how to draw. At the end of 1881 he moved to The Hague, and there, too, he concentrated mainly on drawing. Van Gogh made a few paintings while in The Hague, but drawing was his main passion. In order to achieve his ambition of becoming a figure painter, he drew from the live model whenever he could.At the end of 1884 he began painting and drawing a major series of heads and work-roughened peasant hands in preparation for a large and complex figure piece that he was planning. In April 1885 this period of study came to fruition in the masterpiece of his Dutch period, The Potato Eaters. Toward the end of the year of 1888,  his optimism was rudely shattered by the first signs of his illness, a type of epilepsy that took the form of delusions and psychotic attacks. It was during one of those seizures that he cut off his left earlobe.
+                          </p>
+                        </div>
+                        <h3>Late Life</h3>
+                        <div>
+                          <p>
+                            He nevertheless continued working hard during his two months in Auvers, producing dozens of paintings and drawings. On 27 July 1890, Vincent van Gogh was shot in the stomach, and passed away in the early morning of 29 July 1890 in his room at the Auberge Ravoux in the village of Auvers-sur-Oise. Although official history maintains that Van Gogh committed suicide, the latest research reveals that Van Gogh's death might be caused by an accident.
+                          </p>
+                          
+                        </div>
+                        
+                      </div>
+                </section>
+                <section class="row">
+                    <h2>Master Pieces</h2>
+                    <div class="image_box">
+                        <img src="images/starry.jfif" alt="The starry night">
+                        <p>The Starry Night is an oil on canvas painting by Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889.</p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/potato.jfif" alt="Sistime_Chapel">
+                        <p>The Potato Eaters (Dutch: De Aardappeleters) is an oil painting by Dutch artist Vincent van Gogh painted in April 1885 in Nuenen, Netherlands. It is in the Van Gogh Museum in Amsterdam. </p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/skully.jfif" alt="skull of a skeleton with burning cigarette" >
+                        <p>Skull of a Skeleton with Burning Cigarette is an early work by Vincent van Gogh. The small and undated oil-on-canvas painting featuring a skeleton and cigarette is part of the permanent collection of the Van Gogh Museum in Amsterdam. </p>
+                    </div>
+                    
+                </section>
+            </main>
+            <div>
+                <footer>&copy; 2021 lab 8 - intro to css</footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $( "#accordion" ).accordion();
+            });
+        </script>
+</body>
+</html>

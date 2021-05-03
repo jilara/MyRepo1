@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="icon" type="image/png" href="images/logoart.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+        <div id="container">
+            <header id="headerRap">
+                <h1>Raphael</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Michelangelo.html">Michelangelo</a></li>
+                    <li><a href="Raphael.html">Raphael</a></li>
+                    <li><a href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a href="Vincent.html">Vincent</a></li>
+                </ul>
+            </nav>
+            <main>
+                
+                <section>
+                    <h2>Info</h2>
+                    <div id="accordion">
+                        <h3>Early Life</h3>
+                        <div>
+                          <p>
+                            Raphael was born Raffaello Sanzio, in Urbino, Italy, on April 6, 1483. Raphael’s father, Giovanni served as a court painter to the Duke of Urbino which exposed Raphael to painting. When Raphael was young, Giovanni taught him basic painting techniques and, showed him the principles of humanistic philosophy. In 1494, Giovanni died, at that time Raphael was only eleven years old and his mother had died when he was eight. Orphaned, Raphael went to live with his Uncle Bartolomeo and in his teen years somewhere around the 1500 he became Perugino's apprentice.
+
+                          </p>
+                        </div>
+                        <h3>Mid-life</h3>
+                        <div>
+                          <p>
+                            During his apprenticeship with Perugino, Raphael started to develop his own style. Sanzio was a lively young man who loved the city and its people. After working in Sienna, young Raphael went to Florence in 1504 with a recommendation from the Duchess of Urbino. In Florence, the works of the most famous Italian painters of the time were a great inspiration for Raphael. Among them were Fra Bartolommeo, Leonardo da Vinci, Michelangelo, and Masaccio. Raphael considered these artists innovative painters who had achieved a completely new level of depth in their compositions.
+                          </p>
+                        </div>
+                        <h3>Late Life</h3>
+                        <div>
+                          <p>
+                            From 1517 until his death, Raphael lived in the Palazzo Caprini, lying at the corner between piazza Scossacavalli and via Alessandrina in the Borgo, in rather grand style in a palace designed by Bramante. He never married, but in 1514 became engaged to Maria Bibbiena, Cardinal Medici Bibbiena's niece; he seems to have been talked into this by his friend the cardinal, and his lack of enthusiasm seems to be shown by the marriage not having taken place before she died in 1520.Raphael died on Good Friday (April 6, 1520), which was possibly his 37th birthday. Vasari says that Raphael had also been born on a Good Friday, which in 1483 fell on March 28, and that the artist died from exhaustion brought on by unceasing romantic interests while he was working on the Loggia.
+                          </p>
+                          
+                        </div>
+                        
+                      </div>
+                </section>
+                <section class="row">
+                    <h2>Master Pieces</h2>
+                    <div class="image_box">
+                        <img src="images/soa2.jpg" alt="School_of_Athens">
+                        <p> The School of Athens painted between 1509 and 1511 as a part of Raphael's commission to decorate the rooms now known as the Stanze di Raffaello, in the Apostolic Palace in the Vatican </p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/transfig.jfif" alt="The Transfiguration">
+                        <p>Painted between 1516-1520 Commissioned by Cardinal Giulio de Medici, the later Pope Clement VII  </p>
+                    </div>
+                    <div class="image_box">
+                        <img src="images/DHS.jfif" alt="Disputation of the Holy Sacrament" >
+                        <p> Disputation of the Holy Sacrament was painted between 1509 and 1510 as the first part of Raphael's commission to decorate with frescoes the rooms that are now known as the Stanze di Raffaello, in the Apostolic Palace in the Vatican</p>
+                    </div>
+                    
+                </section>
+            </main>
+            <div>
+                <footer>&copy; 2021 lab 8 - intro to css</footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $( "#accordion" ).accordion();
+            });
+        </script>
+</body>
+</html>

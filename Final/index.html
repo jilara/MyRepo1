@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="icon" type="image/png" href="images/logoart.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+        <div id="container">
+            <header>
+                <h1>Historic Artists</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Michelangelo.html">Michelangelo</a></li>
+                    <li><a href="Raphael.html">Raphael</a></li>
+                    <li><a href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a href="Vincent.html">Vincent</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>Images</h2>
+                    <div class="slider">
+                        <div><img src="images/starrynight.jfif" alt="Artist"></div>
+                        <div><img src="images/sistinechapel.jfif" alt="Artist"></div>
+                        <div><img src="images/athens.jfif" alt="Artist"></div>
+                        <div><img src="images/night.jfif" alt="Artist"></div>
+                    </div>
+                        
+                </section>
+                <section>
+                    <h2>Who are these artist?</h2>
+                    <div id="accordion">
+                        <h3>Michelangelo</h3>
+                        <div>
+                          <p>
+                            Michelangelo di Lodovico Buonarroti Simoni simply know as Michelangelo. He is widely known as an artist for painting on the Sistine Chapel but he also is an architect, sculptor, and a poet. He was born in March 6, 1475 at the Caprese, Republic of Florence and passed away in February 18, 1564
+                          </p>
+                        </div>
+                        <h3>Raphael</h3>
+                        <div>
+                          <p>
+                          Raffaello Sanzio or Raffaello Santi both his name in Italian. Born in April 6, 1483 at Urbino, Duchy of Urbino Italy and died in april 6, 1520, Rome. He is know for his Madonnas and compositions in the Vatican.
+                          </p>
+                        </div>
+                        <h3>Rembrandt</h3>
+                        <div>
+                          <p>
+                            Rembrandt Harmenszoon van Rijn known for being a Dutch painter and a printmaker and one of the greatest story tellers in the history of art born in July 15, 1606 at Leiden Netherlands and died in October 4, 1669 Amsterdam.
+                          </p>
+                          
+                        </div>
+                        <h3>Vincent Van Gogh</h3>
+                        <div>
+                          <p>
+                            Vincent Willem van Gogh Dutch painter considered greatest artist after rembrandt and Post-Impressionists. His art work became extremely popular after his death and broke records in sums at auctions. He was born March 30, 1853, Zundert, Netherlands—died July 29, 1890, Auvers-sur-Oise, near Paris, France
+                          </p>
+                        </div>
+                      </div>
+                </section>
+                <section>
+                    <h2>Self Portriats</h2>
+                    <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Michelangelo</a></li>
+                          <li><a href="#tabs-2">Raphael</a></li>
+                          <li><a href="#tabs-3">Rembrandt</a></li>
+                          <li><a href="#tabs-4">Vincent Van Gogh</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <img src="images/michel.jfif" alt="Self-portriat">
+                        </div>
+                        <div id="tabs-2">
+                            <img src="images/raph.jfif" alt="Self-portriat">
+                        </div>
+                        <div id="tabs-3">
+                            <img src="images/Rem.jpg" alt="Self-portriat">
+                        </div>
+                        <div id="tabs-4">
+                            <img src="images/Vincen.jpg" alt="Self-portriat">
+                        </div>
+                      </div>
+                      <embed src="Audio/Gregorian-Chant.mp3" >
+                </section>
+            </main>
+            <footer>&copy; 2021 lab 8 - intro to css</footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $('.slider').bxSlider({
+                 auto: true   
+                });
+                $( "#accordion" ).accordion();
+                $( "#tabs" ).tabs();
+            });
+        </script>
+</body>
+</html>
