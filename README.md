@@ -11,3 +11,4 @@
 <a href="lab6/index.html" target="_blank">Lab 6</a>
 <a href="lab7/index.html" target="_blank">Lab 7</a>
 <a href="lab8/index.html" target="_blank">Lab 8</a>
+<a href="Final/index.html" target="_blank">Final</a>
