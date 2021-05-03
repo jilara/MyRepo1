@@ -148,11 +148,12 @@ footer {
     }
 
     section {
-        width: 70%;
+        width: 40%;
     }
 
     aside {
-        width: 38%;
+        width: 400px;
     }
+
 }
 
