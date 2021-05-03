@@ -146,5 +146,13 @@ footer {
     main {
         display: flex;
     }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 38%;
+    }
 }
 
